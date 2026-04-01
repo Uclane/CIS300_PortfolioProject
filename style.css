@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f3a5f;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.tagline {
+  margin: 5px 0 0 0;
+  font-size: 1.1em;
+}
+
+nav {
+  background-color: #2c527d;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav a:hover {
+  background-color: #17304d;
+}
+
+.active {
+  background-color: #17304d;
+}
+
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-image {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #cccccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.project-card img {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  border: 1px solid #999999;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #dce8f5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #2c527d;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #17304d;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1f3a5f;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+}

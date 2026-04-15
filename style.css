@@ -73,9 +73,9 @@ section {
 }
 
 .profile-image {
-  width: 250px;
-  max-width: 100%;
-  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
 }
 
 .hero-text {
@@ -95,8 +95,9 @@ section {
 
 .project-card img {
   width: 250px;
-  max-width: 100%;
-  border-radius: 8px;
+  height: 250px;
+  object-fit: cover; 
+  border-radius: 10px;
 }
 
 table {
